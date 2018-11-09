@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/testone_btn1"
+        android:layout_width="150dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:text="不销毁跳转" />
+
+    <Button
+        android:id="@+id/testone_btn2"
+        android:layout_width="150dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:text="销毁跳转" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/testone_tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
